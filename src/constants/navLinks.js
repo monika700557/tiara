@@ -23,6 +23,7 @@ export const navLinks = [
       title: "Invoices",
       href: "#",
       icon: "ChartPie",
+      dropdownIcon : "ChevronRight",
       subMenu: [
         { title: "Invoices List", href: "/invoices-list" },
         { title: "Invoices Grid", href: "/invoices-grid1" },
@@ -66,6 +67,52 @@ export const navLinks = [
       href: "/setting",
       icon: "Settings",
     
+    },
+
+    {
+      title: "Pages",
+      links: []
+    },
+    {
+      title: "Profile",
+      href: "/profile",
+      icon: "UserRoundPen",
+    
+    },
+    {
+      title: "Authentication",
+      href: "#",
+      icon: "Lock",
+      subMenu: [
+        { title: "Login", href: "/login" },
+        { title: "Register", href: "/register" },
+        { title: "Forgot Password", href: "/forgot-password" },
+        { title: "Taxs Reports", href: "/lock-screen" },
+      ]
+    
+    },
+
+    {
+      title: "Error pages",
+      href: "#",
+      icon: "OctagonAlert",
+      subMenu: [
+        { title: "404 Error", href: "/404" },
+        { title: "505 Error", href: "/505" },
+       
+      ]
+    
+    },
+
+    {
+      title: "Users",
+      href: "/users",
+      icon: "User",
+    },
+    {
+      title: "Blank Page",
+      href: "/blank",
+      icon: "StickyNote",
     },
 
     // More links...

@@ -20,7 +20,7 @@ const InvoiceGridTable = () => {
   const invoices = [
     {
       name: " Barbara Moore",
-      id: "IN093439#09",
+      id: "IN093439#0f9",
       name: "Barbara Moore",
       amount: "$1,54,220",
       dueDate: "23 Mar, 2022",
@@ -30,8 +30,8 @@ const InvoiceGridTable = () => {
         "https://kanakku.dreamstechnologies.com/html/template-materializecss/assets/img/profiles/avatar-04.jpg",
     },
     {
-      name: " Barbara Moore",
-      id: "IN093439#09",
+      name: " Monika Sharma",
+      id: "IN093439#sd09",
       name: "Barbara Moore",
       amount: "$1,54,220",
       dueDate: "23 Mar, 2022",
@@ -41,8 +41,8 @@ const InvoiceGridTable = () => {
         "https://kanakku.dreamstechnologies.com/html/template-materializecss/assets/img/profiles/avatar-04.jpg",
     },
     {
-      name: " Barbara Moore",
-      id: "IN093439#09",
+      name: " Nikita Jain",
+      id: "IN09343q9#09",
       name: "Barbara Moore",
       amount: "$1,54,220",
       dueDate: "23 Mar, 2022",
@@ -52,8 +52,8 @@ const InvoiceGridTable = () => {
         "https://kanakku.dreamstechnologies.com/html/template-materializecss/assets/img/profiles/avatar-04.jpg",
     },
     {
-      name: " Barbara Moore",
-      id: "IN093439#09",
+      name: " Charlie Chaplin",
+      id: "IN0934w39#09",
       name: "Barbara Moore",
       amount: "$1,54,220",
       dueDate: "23 Mar, 2022",
@@ -63,8 +63,8 @@ const InvoiceGridTable = () => {
         "https://kanakku.dreamstechnologies.com/html/template-materializecss/assets/img/profiles/avatar-04.jpg",
     },
     {
-      name: " Barbara Moore",
-      id: "IN093439#09",
+      name: "Elizabeth Taylor",
+      id: "IN093439e#09",
       name: "Barbara Moore",
       amount: "$1,54,220",
       dueDate: "23 Mar, 2022",
@@ -74,8 +74,8 @@ const InvoiceGridTable = () => {
         "https://kanakku.dreamstechnologies.com/html/template-materializecss/assets/img/profiles/avatar-04.jpg",
     },
     {
-      id: "IN093439#10",
-      name: "Karlene Chaidez",
+      id: "IN093439t#10",
+      name: "Karlene Chaideza",
       amount: "$1,222",
       dueDate: "18 Mar, 2022",
       status: "Sent",
@@ -85,7 +85,7 @@ const InvoiceGridTable = () => {
       overdueText: "Overdue 14 days",
     },
     {
-      id: "IN093439#11",
+      id: "IN093439#1l1",
       name: "Russell Copeland",
       amount: "$3,470",
       dueDate: "10 Mar, 2022",
@@ -95,8 +95,8 @@ const InvoiceGridTable = () => {
         "https://kanakku.dreamstechnologies.com/html/template-materializecss/assets/img/profiles/avatar-04.jpg",
     },
     {
-      id: "IN093439#10",
-      name: "Karlene Chaidez",
+      id: "IN093439#a10",
+      name: "Karlene Chaidezm",
       amount: "$1,222",
       dueDate: "18 Mar, 2022",
       status: "Paid",

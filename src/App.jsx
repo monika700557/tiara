@@ -27,6 +27,7 @@ import EditInvoice from './pages/invoicelist/EditInvoice'
 import InvoiceDetails from './pages/invoicelist/InvoiceDetails';
 import InvoiceDetailsSecond from './pages/invoicelist/InvoiceDetailsSecond'
 import InvoiceSetting from './pages/invoicelist/InvoiceSetting';
+import UserPage  from './pages/users/UserPage';
 
 
 
@@ -37,6 +38,8 @@ export default function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/customer" element={<Customer />} />
         <Route path="/estimates" element={<Estimate />} />
+          <Route path="/estimates" element={<Estimate />} />
+
         <Route path="/invoices-list" element={<InvoiceList />} />
         <Route path="/invoices-grid1" element={<InvoiceGridFirst />} />
         <Route path='/invoices-grid-2' element={<InvoiceGridSecond />} />
@@ -71,6 +74,7 @@ export default function App() {
         <Route path="/profile" element={<Profile/>} /> 
         <Route path="/404" element={<Error1/>} /> 
         <Route path="/505" element={<Error2/>} /> 
+        <Route path="/users" element={<UserPage/>} /> 
 
 
 

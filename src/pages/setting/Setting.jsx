@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SettingSidebar from '../../components/settings/settingsidebar/SettingSidebar';
-import ProfileSetting from '../../components/settings/profileSetting/ProfileSetting';
+import ProfileSetting from '../../components/settings/profilesetting/ProfileSetting';
 import Preference from '../../components/settings/prefrence/Prefrence';
 import Sidebar from "../../components/dashboard/sidebar/Sidebar";
 import TaxType from '../../components/settings/taxtype/TaxType';

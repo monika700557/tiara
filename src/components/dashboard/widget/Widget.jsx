@@ -1,5 +1,5 @@
 import { Grid } from "@mui/material";
-import { DollarSign, ArrowDown, ArrowUp, Users } from "lucide-react";
+import { DollarSign, ArrowDown, ArrowUp, Users ,FileChartColumn , File} from "lucide-react";
 import LinearProgress, {
   linearProgressClasses,
 } from "@mui/material/LinearProgress";
@@ -68,7 +68,7 @@ export default function Widget() {
       <DollarSign 
         color="#ffb800" 
         strokeWidth={3} 
-        style={{ fontSize: '1.875rem', color: '#ffb800' , fontWeight: '900'}} // Inline styles for size and color
+        width="2rem" height="2rem" // Inline styles for size and color
       />
     </span>
                 
@@ -99,7 +99,7 @@ export default function Widget() {
   }}>
             <div className="flex gap-4 items-center">
               <div className="bg-[#d1f3ff] inline-flex justify-center text-[1.875rem]  align-middle items-center w-[4rem] h-[4rem] rounded-[10px]">
-                <Users color="#42cdff" strokeWidth={3} />
+                <Users width="2rem" height="2rem" color="#42cdff" strokeWidth={3} />
               </div>
               <div className="text-[#455560] flex flex-col font-semibold">
                 <span>Customers</span>
@@ -127,7 +127,7 @@ export default function Widget() {
   }}>
             <div className="flex gap-4 items-center">
               <div className="bg-[#ceffd5] inline-flex justify-center text-[1.875rem]  align-middle items-center w-[4rem] h-[4rem] rounded-[10px]">
-                <DollarSign color="#52fb6a" strokeWidth={3} />
+              <FileChartColumn width="2rem" height="2rem"  color="#52fb6a" strokeWidth={3} />
               </div>
               <div className="text-[#455560] flex flex-col font-semibold">
                 <span>Invoices</span>
@@ -155,7 +155,7 @@ export default function Widget() {
   }}>
             <div className="flex gap-4 items-center">
               <div className="bg-[#fccaff] inline-flex justify-center text-[1.875rem]  align-middle items-center w-[4rem] h-[4rem] rounded-[10px]">
-                <DollarSign color="#f555ff" strokeWidth={3} />
+              <File  width="2rem" height="2rem" color="#f555ff" strokeWidth={3} />
               </div>
               <div className="text-[#455560] flex flex-col font-semibold">
                 <span>Estimates</span>

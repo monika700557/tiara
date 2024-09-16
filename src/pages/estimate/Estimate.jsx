@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "../../components/dashboard/sidebar/Sidebar";
 import EstimateHeader from "../../components/estimates/estimatesHeader/EstimateHeader";
-import EstimateTable from "../../components/estimates/estimateEnteries/EStimateTable";
+import EstimateTable from "../../components/estimates/estimateEnteries/EstimateTable";
 
 export default function Estimate() {
   return (
